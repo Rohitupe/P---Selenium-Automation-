@@ -7,6 +7,7 @@ driver.implicitly_wait(10)
 driver.maximize_window()
 
 """
+    Working with alerts
     - switch_to_alert().accept()
     - switch_to_alert().dismiss()
 """
