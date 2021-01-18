@@ -7,12 +7,8 @@
 # time.sleep(10)
 # driver.quit()
 
-# list1 = [1,2,3,4]
-# list2 = [4,6,21,1]
-list1 = input().split(' ')
+list1 = [1,2,3,4]
+list2 = [4,6,21,1]
 
-list2 = input().split(' ')
-mainlist = list1+list2
-
-mainlist.sort()
-print(mainlist)
+for i in range(len(list1)):
+    print(list1[i],list2[i])
