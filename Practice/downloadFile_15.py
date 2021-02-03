@@ -8,7 +8,7 @@ import time
 # chromeOptions = Options()
 # chromeOptions.add_experimental_option("prefs",{"download.default_directory":"c:\Desktop"})
 #
-# driver = webdriver.Edge(executable_path="../Driver/msedgedriver.exe",chrome_options = chromeOptions)
+# driver = webdriver.Chrome(executable_path="Chrome driver file path",chrome_options = chromeOptions)
 
 # Driver code
 
