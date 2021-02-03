@@ -2,6 +2,16 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
+""" Download file in location you want by configuring default download path in - only works Chrome Browser """
+# from selenium.webdriver.chrome.options import Options
+#
+# chromeOptions = Options()
+# chromeOptions.add_experimental_option("prefs",{"download.default_directory":"c:\Desktop"})
+#
+# driver = webdriver.Edge(executable_path="../Driver/msedgedriver.exe",chrome_options = chromeOptions)
+
+# Driver code
+
 driver = webdriver.Edge(executable_path="../Driver/msedgedriver.exe")
 driver.implicitly_wait(10)
 driver.maximize_window()
@@ -35,3 +45,6 @@ driver.find_element(By.ID,'createPdf').click()
 time.sleep(2)
 
 driver.find_element(By.ID,'pdf-link-to-download').click()
+
+driver.close()
+driver.quit()
