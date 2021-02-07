@@ -1,1 +1,12 @@
 1) For this we have to install a module name - pip install openpyxl ==> To read and write excel
+
+2) Website Ued for data driven testing
+URL - http://practice.automationtesting.in/my-account/
+
+Credential:
+test145@gmail.com
+test146@gmail.com
+test147@gmail.com
+test148@gmail.com
+test149@gmail.com
+Automate!@22
