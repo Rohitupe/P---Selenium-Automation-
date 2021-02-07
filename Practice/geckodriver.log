@@ -1,0 +1,37 @@
+1612684035736	geckodriver	INFO	Listening on 127.0.0.1:53024
+1612684038772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rohit\\AppData\\Local\\Temp\\rust_mozprofileAuRrf7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612684048241	Marionette	INFO	Listening on port 53032
+1612684048744	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612684048782	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612684056360	Marionette	INFO	Stopped listening on port 53032
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5B000E,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612686184895	geckodriver	INFO	Listening on 127.0.0.1:60486
+1612686187927	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rohit\\AppData\\Local\\Temp\\rust_mozprofileOgOS1J"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612686192237	Marionette	INFO	Listening on port 60495
+1612686192793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612686192819	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612686209883	Marionette	INFO	Stopped listening on port 60495
+1612686927002	geckodriver	INFO	Listening on 127.0.0.1:60921
+1612686930133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\rohit\\AppData\\Local\\Temp\\rust_mozprofileiPRDPR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612686934185	Marionette	INFO	Listening on port 60930
+1612686934335	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612686934354	Marionette	ERROR	[15] No reply from Marionette:Register
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+1612686951108	Marionette	INFO	Stopped listening on port 60930
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\rohit\AppData\Local\Temp\rust_mozprofileiPRDPR\protections.sqlite
