@@ -1,0 +1,14 @@
+Cookies :
+    1. cookies is a piece of information from website and saved by your browser
+    2. Cookies area way of remembering users and their interaction with site by storing information in the cookie file as key value pairs
+    3. It stores the login information like username, email and password
+    4. HTTP cookie is also known as a web cookie, a browser cookie or internet cookie
+
+Operations on Cookies:
+    1. Capture all cookies from browser
+    2. Count number of cookies
+    3. Read Cookie pairs
+    4. Adding new cookies
+    5. Deleting specific cookie by using name of cookie
+    6. Deleting all the cookies
+    
