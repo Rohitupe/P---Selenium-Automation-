@@ -1,0 +1,7 @@
+* unitTest 1.1
+ --> In automation testing, organizing your code is very important and client expects us to write
+ automation scripts according to the manual test cases.
+ --> We can get good reporting structure if we can exactly map our automation code with manual test cases.
+ --> In Python we can use Unit Test testing Framework to organize our automation code and to extract reports
+ --> To use the methods present in UnitTest Framework, we have to extend the Test Case class
+ present in the UnitTest Module.
