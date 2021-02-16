@@ -1,0 +1,43 @@
+WARNING:root:This is warning message
+ERROR:root:This is error message
+CRITICAL:root:This is critical message
+DEBUG:root:This is debug message
+INFO:root:This is info message
+WARNING:root:This is warning message
+ERROR:root:This is error message
+CRITICAL:root:This is critical message
+2021-02-16 16:56:09,943: DEBUG: This is debug message
+2021-02-16 16:56:09,943: INFO: This is info message
+2021-02-16 16:56:09,943: WARNING: This is warning message
+2021-02-16 16:56:09,943: ERROR: This is error message
+2021-02-16 16:56:09,944: CRITICAL: This is critical message
+02/16/2021 04:59:25 PM: DEBUG: This is debug message
+02/16/2021 04:59:25 PM: INFO: This is info message
+02/16/2021 04:59:25 PM: WARNING: This is warning message
+02/16/2021 04:59:25 PM: ERROR: This is error message
+02/16/2021 04:59:25 PM: CRITICAL: This is critical message
+16/02/2021 04:59:40 PM: DEBUG: This is debug message
+16/02/2021 04:59:40 PM: INFO: This is info message
+16/02/2021 04:59:40 PM: WARNING: This is warning message
+16/02/2021 04:59:40 PM: ERROR: This is error message
+16/02/2021 04:59:40 PM: CRITICAL: This is critical message
+16/02/2021 05:02:47 PM: DEBUG: This is debug message
+16/02/2021 05:02:47 PM: INFO: This is info message
+16/02/2021 05:02:47 PM: WARNING: This is warning message
+16/02/2021 05:02:47 PM: ERROR: This is error message
+16/02/2021 05:02:47 PM: CRITICAL: This is critical message
+16/02/2021 05:02:47 PM: DEBUG: This is debug message
+16/02/2021 05:02:47 PM: INFO: This is info message
+16/02/2021 05:02:47 PM: WARNING: This is warning message
+16/02/2021 05:02:47 PM: ERROR: This is error message
+16/02/2021 05:02:47 PM: CRITICAL: This is critical message
+16/02/2021 05:03:25 PM: DEBUG: This is debug message
+16/02/2021 05:03:25 PM: INFO: This is info message
+16/02/2021 05:03:25 PM: WARNING: This is warning message
+16/02/2021 05:03:25 PM: ERROR: This is error message
+16/02/2021 05:03:25 PM: CRITICAL: This is critical message
+16/02/2021 05:03:25 PM: DEBUG: This is debug message
+16/02/2021 05:03:25 PM: INFO: This is info message
+16/02/2021 05:03:25 PM: WARNING: This is warning message
+16/02/2021 05:03:25 PM: ERROR: This is error message
+16/02/2021 05:03:25 PM: CRITICAL: This is critical message
