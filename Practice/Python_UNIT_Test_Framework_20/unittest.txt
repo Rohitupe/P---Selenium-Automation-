@@ -7,11 +7,13 @@
   present in the UnitTest Module.
 
 * unitTest 1.2 ==> Python Unit Test Framework (20_3, )
-  --> setup (20_3) -> It will execute before every test method started (On Class Level)
+  --> setup (20_3) -> It will execute before every test method started
                 (setup > test1, setup > test2, setup > test3 ...)
-  --> teardown (20_3) -> It will execute after completion of every test method (On Class Level)
+  --> teardown (20_3) -> It will execute after completion of every test method
                 (test1 > teardown, test2 > teardown, test3 > teardown ...)
-  --> setUpClass
-  --> tearDownClass
+  --> setUpClass (20_4) -> It will only run once before every method started in a class
+                        (setupClass > test1 > test2 > test3 ....)
+  --> tearDownClass (20_4) -> It will only run once after execution of all test methods are done
+                        (setUpClass > test1 > test2 > test3 > tearDownClass)
   --> setUpModule
   --> tearDownModule
