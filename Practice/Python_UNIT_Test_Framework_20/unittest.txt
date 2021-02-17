@@ -6,7 +6,7 @@
   --> To use the methods present in UnitTest Framework, we have to extend the Test Case class
   present in the UnitTest Module.
 
-* unitTest 1.2 ==> Python Unit Test Framework (20_3, )
+* unitTest 1.2 ==> Python Unit Test Framework (20_3, 20_4, 20_5)
   --> setup (20_3) -> It will execute before every test method started
                 (setup > test1, setup > test2, setup > test3 ...)
   --> teardown (20_3) -> It will execute after completion of every test method
@@ -15,5 +15,7 @@
                         (setupClass > test1 > test2 > test3 ....)
   --> tearDownClass (20_4) -> It will only run once after execution of all test methods are done
                         (setUpClass > test1 > test2 > test3 > tearDownClass)
-  --> setUpModule
-  --> tearDownModule
+  --> setUpModule (20_5) -> This is a Module level class method It will only run once before executing any class
+                            (setUpModule > Class1 > Class2 > Class3 ....)
+  --> tearDownModule (20_5) -> This is a Module level class method It will only run once at the end when all classes are executed
+                            (setUpClass > Class1 > Class2 > Class3 > tearDownClass)
