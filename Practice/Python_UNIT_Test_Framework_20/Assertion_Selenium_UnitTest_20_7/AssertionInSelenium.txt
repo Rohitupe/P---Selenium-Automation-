@@ -28,9 +28,19 @@
                        or value is True then unittest fails the testcase.
 
 * assertIsNone & assertIsNotNone (20_7_3)
-    1. assertIsNone --> - assertIsNone method verifies whether given values or expression results is None or Not,
+    1. assertIsNone --> assertIsNone method verifies whether given values or expression results is None or Not,
                         if the result is None then python unittest will pass the testcase otherwise fails the
                         testcase.
 
-    2. assertIsNotNone --> - assertIsNotNone method verifies whether given values is not None, if the value
+    2. assertIsNotNone --> assertIsNotNone method verifies whether given values is not None, if the value
                              is None then the testcase will be failed.
+
+* assertIn & assertNotIn (20_7_4)
+    1. assertIn --> assertIn method verifies whether the first element is present in the second element, if first
+                    element is present in second element then test is passed otherwise test is failed.
+
+    2. assertNotIn --> assertNotIn method verifies whether the first element is not present in the second element or
+                       not, if first element is present then test will be failed otherwise test is passed.
+
+    ==> These two methods will be helpful when you want to verify presence of a value in a list, tuple, set,
+        and dictionary.
