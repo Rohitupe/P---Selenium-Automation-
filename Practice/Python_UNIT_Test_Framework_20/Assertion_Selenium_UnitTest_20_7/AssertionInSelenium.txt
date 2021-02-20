@@ -10,13 +10,13 @@
 * assertEqual & assertNotEqual (20_7_1)
     1. assertEqual --> assertEqual compare the first parameter with the second parameter, if both matches the unittest
                        will continue with the remaining execution but the both values are different then unit test
-                       fails the testcase
+                       fails the testcase.
 
     2. assertNotEqual --> assertNotEqual method compares the given two parameters, if both parameter are not same
-                          then unittest passes the test case but if both parameter are same then unit test fails
-                          the test case
+                          then unittest passes the testcase but if both parameter are same then unit test fails
+                          the testcase.
 
-* assertTrue & assertFalse
+* assertTrue & assertFalse (20_7_2)
     1. assertTrue --> - When we have only two parameter we can use assertEqual method to check whether both are same
                       or not, but if we have more than two parameters, comparing values with assertEqual method
                       become more difficult.
@@ -25,4 +25,12 @@
 
     2. assertFalse --> - assertFalse method compares whether given value or expression results in False or not.
                        - if the result or value is False then unittest passes the testcase but if the result
-                       or value is True then unittest fails the test case.
+                       or value is True then unittest fails the testcase.
+
+* assertIsNone & assertIsNotNone (20_7_3)
+    1. assertIsNone --> - assertIsNone method verifies whether given values or expression results is None or Not,
+                        if the result is None then python unittest will pass the testcase otherwise fails the
+                        testcase.
+
+    2. assertIsNotNone --> - assertIsNotNone method verifies whether given values is not None, if the value
+                             is None then the testcase will be failed.
