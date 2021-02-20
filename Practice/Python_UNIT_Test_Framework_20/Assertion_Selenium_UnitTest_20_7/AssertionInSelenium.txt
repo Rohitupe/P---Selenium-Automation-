@@ -7,7 +7,7 @@
       generated.
     - There are few assertion which will accept all the values and few assertions will accept only numeric values.
 
-* assertEqual & assertNotEqual
+* assertEqual & assertNotEqual (20_7_1)
     1. assertEqual --> assertEqual compare the first parameter with the second parameter, if both matches the unittest
                        will continue with the remaining execution but the both values are different then unit test
                        fails the testcase
