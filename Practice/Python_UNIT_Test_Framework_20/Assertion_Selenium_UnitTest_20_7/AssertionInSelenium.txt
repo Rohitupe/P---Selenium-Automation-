@@ -44,3 +44,11 @@
 
     ==> These two methods will be helpful when you want to verify presence of a value in a list, tuple, set,
         and dictionary.
+
+** Relational Comparison (20_7_5)
+    1. assertGreater --> assertGreater verifies whether first values is greater than second value or not.
+    2. assertGreaterEqual --> assertGreaterEqual verifies whether first parameter is greater or equal to the
+                              second parameter.
+    3. assertLess --> assertLess verifies whether first parameter is lesser than second parameter or not.
+    4. assertLessEqual --> assertLessEqual verifies whether first parameter is lesser or equal to the
+                           second parameter.
