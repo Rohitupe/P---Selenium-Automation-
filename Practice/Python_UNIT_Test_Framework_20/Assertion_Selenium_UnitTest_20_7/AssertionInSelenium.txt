@@ -15,3 +15,14 @@
     2. assertNotEqual --> assertNotEqual method compares the given two parameters, if both parameter are not same
                           then unittest passes the test case but if both parameter are same then unit test fails
                           the test case
+
+* assertTrue & assertFalse
+    1. assertTrue --> - When we have only two parameter we can use assertEqual method to check whether both are same
+                      or not, but if we have more than two parameters, comparing values with assertEqual method
+                      become more difficult.
+                      - assertTrue method checks whether given parameter is true or not, if value is true then test
+                      is passed otherwise test is failed.
+
+    2. assertFalse --> - assertFalse method compares whether given value or expression results in False or not.
+                       - if the result or value is False then unittest passes the testcase but if the result
+                       or value is True then unittest fails the test case.
