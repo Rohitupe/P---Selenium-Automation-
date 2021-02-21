@@ -1,0 +1,19 @@
+** Multiple Ways to Run Test Cases
+1. pytest test_module.py --> run all test methods in module
+2. pytest someFilePath --> run all test modules present in someFilePath Folder
+3. pytest test_module.py::test_method --> only run particular test_method in test_module
+
+-s --> to print Statements
+-v --> verbose logs
+
+--commands
+
+--> Run all tests in a module/file
+    pytest -v -s test_Login.py
+    pytest -v -s test_SignUp.py
+
+--> Run all tests(from all modules) in a path
+    pytest -v -s C:\Users\admin\PycharmProjects\Selenium_Automation\Practice\PyTest_Python_22
+
+--> Run Specific test method from a module
+    pytest -v -s test_Login.py::test_loginByFacebook
