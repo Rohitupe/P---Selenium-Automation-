@@ -1,0 +1,9 @@
+** How to work with PyTest Fixtures
+
+    * The purpose of test fixtures is to provide a fixed baseline upon which tests can reliably and repeatedly execute.
+
+    * @pytest.fixture()
+    - Execute specific method before every test method
+
+    * @pytest.yield_fixture()
+    - Execute specific method before and after every test method
