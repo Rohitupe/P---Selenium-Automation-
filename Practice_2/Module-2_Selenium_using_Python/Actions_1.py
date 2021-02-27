@@ -6,6 +6,11 @@ driver = webdriver.Chrome(executable_path="../../Driver/chromedriver.exe")
 URL = "https://rahulshettyacademy.com/angularpractice"
 driver.get(URL)
 
+# websites to practice selenium -->
+#     1. https://rahulshettyacademy.com/angularpractice
+#     2. https://rahulshettyacademy.com/AutomationPractice/
+#     3. https://rahulshettyacademy.com/seleniumPractise/#/
+
 # if driver.current_url == URL:
 #     print(driver.title)
 # else:
