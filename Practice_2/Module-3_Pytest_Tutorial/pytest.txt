@@ -9,18 +9,18 @@ PART_1 -->
   -> to run only single pytest file -->
     pytest filename.py
 
-PART_2 --> 
+PART_2 --> run tests
   -> to run selected testcases or test files in pytest we use -->
     run selected file --> py.test filename.py -v -s
     run selected test case --> 
 
 
-PART_1, PART_2 --> 
+PART_1, PART_2 --> run methods with keywords
   -> run test cases which have cred in their method name
   --> pytest -k cred -v -s --> -k stands for key word --> will search for key word in methods name
 
 
-PART_3 -->
+PART_3 --> mark, skip tests
   -> to run test based upon smoke and regression then we have to gruop tests which we want to run
   -> we can use mark concept which there in pytest to pmark particular tests as smoke or regression based upon our requirements
   -> marking test which we want to run
@@ -30,5 +30,15 @@ PART_3 -->
     --> to skip any test add one more decorator as ==> @pytest.mark.skip
   -> skip test and don't show warnings or any message related to this tes in console
     --> @pytest.mark.xfail
-  -> conditional skipping test
-    --> 
+
+
+PART_4 --> Fixtures
+  --> Run this test before and after the end of executions --> this is called fixtures in python
+  --> just like tearup and teardown method in unitest module
+
+
+PART_5 --> conftest.py --> fixtures can be placed on one single python file withins the same directory
+  --> so, this fixture will run every time when the test is called with the folder
+  --> in this conftest.py file we can setup tearUp and tearDown methods which will run for every test
+  --> file name has to be conftest.py ==> mandatory
+  --> now fron same folder run pytest -v -s ==> and see magic
