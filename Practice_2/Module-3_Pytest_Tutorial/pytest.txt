@@ -1,0 +1,34 @@
+1. pytest python file name should start with test_ or should end with _test
+2. method name should start with test_
+3. code should be wrapped in method
+
+PART_1 -->
+  -> to run all files in folder run -->
+    py.test , py.test -v, py.test -v -s
+
+  -> to run only single pytest file -->
+    pytest filename.py
+
+PART_2 --> 
+  -> to run selected testcases or test files in pytest we use -->
+    run selected file --> py.test filename.py -v -s
+    run selected test case --> 
+
+
+PART_1, PART_2 --> 
+  -> run test cases which have cred in their method name
+  --> pytest -k cred -v -s --> -k stands for key word --> will search for key word in methods name
+
+
+PART_3 -->
+  -> to run test based upon smoke and regression then we have to gruop tests which we want to run
+  -> we can use mark concept which there in pytest to pmark particular tests as smoke or regression based upon our requirements
+  -> marking test which we want to run
+    --> to mark any test with specific name add decorator on method like ==> @pytest.mark.nameYouWant
+    --> to run in terminal --> pytest -m smoke -v -s
+  -> skipping tests
+    --> to skip any test add one more decorator as ==> @pytest.mark.skip
+  -> skip test and don't show warnings or any message related to this tes in console
+    --> @pytest.mark.xfail
+  -> conditional skipping test
+    --> 
