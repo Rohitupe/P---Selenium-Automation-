@@ -2,7 +2,7 @@
 2. method name should start with test_
 3. code should be wrapped in method
 
-PART_1 -->
+PART_1 --> run tests
   -> to run all files in folder run -->
     py.test , py.test -v, py.test -v -s
 
@@ -51,3 +51,10 @@ PART_6 --> Data driven fixtures to load Data
 
 
 PART_7 --> test with multiple datasets
+  --> parameterizing tests with multiple datasets using fixtures
+  --> parameters are pass within fixture to a method
+  --> in function you have to request as a parameter to get values from fixtures parameter
+  --> we can pass tuples in the fixtures params => have a look at `crossBrowserTwo` in conftest.py
+
+
+PART_8 --> generate HTML Reports for pytest testcases
