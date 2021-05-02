@@ -42,3 +42,12 @@ PART_5 --> conftest.py --> fixtures can be placed on one single python file with
   --> in this conftest.py file we can setup tearUp and tearDown methods which will run for every test
   --> file name has to be conftest.py ==> mandatory
   --> now fron same folder run pytest -v -s ==> and see magic
+
+
+PART_6 --> Data driven fixtures to load Data
+  --> loading data required for tests from fixtures
+  --> There are multiple uses of fixtures => we have seen two
+      ==> 1. tearUp and tearDown method, 2. loading data for tests
+
+
+PART_7 --> test with multiple datasets
