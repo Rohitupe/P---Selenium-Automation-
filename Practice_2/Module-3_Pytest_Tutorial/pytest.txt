@@ -58,3 +58,5 @@ PART_7 --> test with multiple datasets
 
 
 PART_8 --> generate HTML Reports for pytest testcases
+  --> to install pytest-html => pip install pytest-html
+  --> to get the report of test you have ran => pytest --html=report.html
