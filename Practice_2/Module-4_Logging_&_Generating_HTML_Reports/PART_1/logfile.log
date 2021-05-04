@@ -1,0 +1,12 @@
+2021-05-04 21:08:08,111 : INFO : test_log : This is info message
+2021-05-04 21:08:08,112 : WARNING : test_log : This is warning message
+2021-05-04 21:08:08,112 : ERROR : test_log : This is error message
+2021-05-04 21:08:08,112 : CRITICAL : test_log : This is critical message
+2021-05-04 21:08:27,631 : WARNING : test_log : This is warning message
+2021-05-04 21:08:27,631 : ERROR : test_log : This is error message
+2021-05-04 21:08:27,631 : CRITICAL : test_log : This is critical message
+2021-05-04 21:08:51,591 : DEBUG : test_log : This is debug message
+2021-05-04 21:08:51,592 : INFO : test_log : This is info message
+2021-05-04 21:08:51,593 : WARNING : test_log : This is warning message
+2021-05-04 21:08:51,593 : ERROR : test_log : This is error message
+2021-05-04 21:08:51,595 : CRITICAL : test_log : This is critical message

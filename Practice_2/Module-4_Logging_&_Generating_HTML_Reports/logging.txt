@@ -1,0 +1,22 @@
+=> Every things needs to be log in the logs files
+=> different logs <-> 1. debug, 2. info, 3. warning, 4. error, 5. critical
+=> we can use logging package in python to logs different types => 
+
+=> logging will have an format like
+  -> timestamp
+  -> type of log => (debug, info, warning, etc...)
+  -> test case name
+  -> log message
+  -> for e.g => 2019-04-23 12:23:43,219 : Error : test_case_name : Fatal error in submitting credit card payment on step 4.
+
+PART_1 --> add logs in test cases
+  --> import logging => package => to log messages in test cases
+  --> `__name__` will get the file name for which this logged message is printed
+  --> Different logging messages
+  --> to specify the actual file we use filehandler
+  --> in What format it should write it in the log file that we will specify here
+  --> add all these log messages in file for this we use addHandler
+
+PART_2 --> log messages in test case
+  --> we are using logs instead of print statement
+  --> these logs will be displayed in the html reports as well
